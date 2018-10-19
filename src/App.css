@@ -1,5 +1,14 @@
+* {
+  color: inherit;
+}
+
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #afd4c0;
 }
 
 .App-logo {
@@ -20,6 +29,20 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.routes {
+  /* margin-top: 75px; */
+  height: 100%;
+  margin-top: 75px;
+  min-height: 100vh;
+  width: 50vw;
+  min-width: 300px;
+  background: #e5f4ec;
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  flex: 1;
 }
 
 @keyframes App-logo-spin {

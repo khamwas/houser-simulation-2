@@ -1,0 +1,44 @@
+.wizardTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.wizardCancelButton {
+  margin: 1vw;
+}
+.wizardCompleteButton {
+  margin: 1vw;
+}
+
+.wizardTitle {
+  font-size: 42px;
+  color: #3b5249;
+  margin: 1vw;
+}
+
+.fieldBottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.input {
+  display: felx;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 10px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.wizardContainer {
+  /* background: #dedede; */
+  width: 48vw;
+  min-width: 250px;
+  margin: 10px;
+  align-items: flex-start;
+  justify-content: space-around;
+}

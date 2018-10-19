@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100vw;
+  height: 75px;
+  background: #519872;
+  color: white;
+  font-size: 32px;
+  font-weight: 800;
+  position: fixed;
+  top: 0px;
+  /* margin-bottom: 75px; */
+}
+
+.headerItems {
+  margin-left: 400px;
+}

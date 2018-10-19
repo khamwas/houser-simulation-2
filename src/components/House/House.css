@@ -1,0 +1,34 @@
+.singleHouseContainer {
+  /* background: #dedede; */
+  width: 80vw;
+  min-width: 250px;
+  margin-top: -13px;
+}
+
+.singleHouseImg {
+  width: 45vw;
+  min-width: 200px;
+}
+
+.dashboardTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.dashButton {
+  margin: 1vw;
+}
+
+.houseTitle {
+  font-size: 42px;
+  color: #3b5249;
+  margin: 1vw;
+}
+
+.delete {
+  margin: 5px;
+  /* align-self: right; */
+}
